@@ -1247,3 +1247,71 @@ section {
 .cert-link:hover i {
     transform: translateX(5px);
 }
+
+/* ==================== */
+/* REPO NOTE STYLING */
+/* ==================== */
+.repo-note {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(124, 152, 133, 0.05), rgba(168, 197, 176, 0.05));
+    border-radius: 16px;
+    border: 2px dashed rgba(124, 152, 133, 0.3);
+    margin-top: 1rem;
+}
+
+.repo-note i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.repo-note p {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+.repo-note a {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.repo-note a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+.error-message {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    background: linear-gradient(135deg, rgba(212, 165, 116, 0.1), rgba(232, 184, 139, 0.1));
+    border-radius: 16px;
+    border: 2px solid rgba(212, 165, 116, 0.3);
+}
+
+.error-message i {
+    font-size: 3rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.error-message p {
+    color: var(--text-light);
+    font-size: 1.125rem;
+}
+
+.error-message a {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.error-message a:hover {
+    color: var(--accent-color);
+}
